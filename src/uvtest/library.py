@@ -20,8 +20,8 @@ def output_table(console: Console) -> None:
     table = Table(title="Demo table")
     table.add_column("Name", style="cyan", no_wrap=True)
     table.add_column("Value", justify="right", style="magenta")
-    table.add_row("foo", "42")
-    table.add_row("bar", "7")
+    table.add_row("A", "42")
+    table.add_row("B", "7")
     console.print(table)
 
 def work_work(console: Console) -> None:
