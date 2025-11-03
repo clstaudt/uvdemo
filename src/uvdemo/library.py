@@ -1,4 +1,4 @@
-"""Library module for uvtest containing reusable functions."""
+"""Library module for uvdemo containing reusable functions."""
 
 from rich.console import Console
 from rich.panel import Panel

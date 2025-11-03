@@ -1,2 +1,2 @@
 def hello() -> str:
-    return "Hello from uvtest!"
+    return "Hello from uvdemo!"
