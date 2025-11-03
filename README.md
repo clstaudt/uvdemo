@@ -22,6 +22,15 @@ Or install in another project:
 uv add uvdemo
 ```
 
+## Dev Container Support
+
+This repository includes a minimal devcontainer configuration for library development:
+
+- Open in VS Code with Dev Containers extension
+- Container automatically runs `uv sync` on creation
+- Includes Python, Pylance, and Ruff extensions
+- Based on official `python:3.12-slim` image with uv installed
+
 ## Development with uvdemo-workbench
 
 This repository demonstrates the **production repo + workbench repo pattern** with uv. For interactive development with notebooks and scripts, use the companion workbench repository:
