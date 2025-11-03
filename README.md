@@ -1,6 +1,8 @@
 # uvdemo
 
-A library providing Rich-based console output utilities.
+**Demo repository** showcasing a production library setup with uv.
+
+This is a sample Python library providing Rich-based console output utilities, designed to demonstrate best practices for structuring a production package with uv.
 
 ## Standalone Usage
 
@@ -22,20 +24,20 @@ uv add uvdemo
 
 ## Development with uvdemo-workbench
 
-For interactive development with notebooks, use the companion workbench:
+This repository demonstrates the **production repo + workbench repo pattern** with uv. For interactive development with notebooks and scripts, use the companion workbench repository:
 
 ```bash
 # Clone both repositories side-by-side
 parent-directory/
-├── uvdemo/
-└── uvdemo-workbench/
+├── uvdemo/           # Production library (this repo)
+└── uvdemo-workbench/ # Development workbench
 
 # Setup the workbench (it will use uvdemo as editable dependency)
 cd uvdemo-workbench
 just setup
 ```
 
-See [uvdemo-workbench](../uvdemo-workbench/README.md) for details.
+The workbench imports this library as an editable dependency, allowing you to test changes in real-time without reinstalling. See [uvdemo-workbench](../uvdemo-workbench/README.md) for details.
 
 ## Library Functions
 
