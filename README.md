@@ -1,4 +1,4 @@
-# uvtest
+# uvdemo
 
 A library providing Rich-based console output utilities.
 
@@ -17,25 +17,25 @@ uv run python main.py
 Or install in another project:
 
 ```bash
-uv add uvtest
+uv add uvdemo
 ```
 
-## Development with uvtest-workbench
+## Development with uvdemo-workbench
 
 For interactive development with notebooks, use the companion workbench:
 
 ```bash
 # Clone both repositories side-by-side
 parent-directory/
-├── uvtest/
-└── uvtest-workbench/
+├── uvdemo/
+└── uvdemo-workbench/
 
-# Setup the workbench (it will use uvtest as editable dependency)
-cd uvtest-workbench
+# Setup the workbench (it will use uvdemo as editable dependency)
+cd uvdemo-workbench
 just setup
 ```
 
-See [uvtest-workbench](../uvtest-workbench/README.md) for details.
+See [uvdemo-workbench](../uvdemo-workbench/README.md) for details.
 
 ## Library Functions
 

@@ -11,8 +11,8 @@ import time
 
 def output_greeting(console: Console) -> None:
     """Output a bold green greeting inside a Panel."""
-    greeting = Text("Hello from uvtest!", style="bold green")
-    console.print(Panel(greeting, title="uvtest"))
+    greeting = Text("Hello from uvdemo!", style="bold green")
+    console.print(Panel(greeting, title="uvdemo"))
 
 
 def output_table(console: Console) -> None:

@@ -1,5 +1,5 @@
 [project]
-name = "uvtest"
+name = "uvdemo"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -10,6 +10,11 @@ requires-python = ">=3.12,<3.13"
 dependencies = [
     "halo>=0.0.31",
     "rich>=14.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
 ]
 
 [build-system]

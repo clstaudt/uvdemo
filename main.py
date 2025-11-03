@@ -6,7 +6,7 @@ greeting inside a Panel and an example Table.
 
 from rich.console import Console
 
-from uvtest.library import output_greeting, output_table
+from uvdemo.library import output_greeting, output_table
 
 
 def make_demo(console: Console) -> None:
